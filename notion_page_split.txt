@@ -1,0 +1,545 @@
+
+!doctype html
+
+html class="notion-html" data-notion-html="web" data-notion-version="23.13.0.5033"
+
+head lang="en"
+
+meta charset="utf-8"
+
+meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+
+noscript
+
+meta http-equiv="refresh" content="0;url=https://www.notion.so/disabled-javascript.html"
+
+/noscript
+
+script
+(function(){var e,r=window.navigator.userAgent,t=/Windows.*Edge/i.test(r),i=!t&&/Chrome/i.test(r);if(i){if((e=r.match(/Chrome\/(\d+)/i))&&e[1])return parseInt(e[1],10)
+=84}else if(t||i||!/Safari/i.test(r))if(/Firefox/i.test(r)){if((e=r.match(/Firefox\/(\d+)/i))&&e[1])return parseInt(e[1],10)
+=114}else{if(t)return!0;if(/Trident/i.test(r))return!0}else if((e=r.match(/Version\/(\d+)/i))&&e[1])return parseInt(e[1],10)
+=13;return!1})()&&window.location.replace("/unsupported-browser.html")
+/script
+
+script
+window.__webStartTime=performance.now(),performance.mark("__webStartTime")
+/script
+
+script
+try{if(Math.random()
+.01){["/blank","/login","/meeting-notification","/quick-search"].includes(window.location.pathname)||(window.CLIENT_LOAD_TAG=Math.random().toString(16).substring(2),fetch("/api/v3/recordClientLoadAttempt",{method:"POST",headers:{"Content-Type":"application/json; charset=utf-8"},body:JSON.stringify({tag:window.CLIENT_LOAD_TAG,pathname:window.location.pathname,hostname:window.location.hostname,version:"23.13.0.5033",htmlType:"web"}),priority:"low"}))}}catch(t){console.error("Failed to beacon load attempt",t)}
+/script
+
+title
+Notion
+/title
+
+meta name="description" content="A tool that connects everyday work into one space. It gives you and your teams AI tools—search, writing, note-taking—inside an all-in-one, flexible workspace."/
+
+meta name="twitter:card" content="summary_large_image"/
+
+meta name="twitter:site" content="@NotionHQ"/
+
+meta name="twitter:title" content="The AI workspace that works for you. | Notion"/
+
+meta name="twitter:description" content="A tool that connects everyday work into one space. It gives you and your teams AI tools—search, writing, note-taking—inside an all-in-one, flexible workspace."/
+
+meta name="twitter:url" content="https://www.notion.so"/
+
+meta name="twitter:image" content="https://www.notion.so/images/meta/default.png"/
+
+meta property="og:site_name" content="Notion"/
+
+meta property="og:type" content="website"/
+
+meta property="og:url" content="https://www.notion.so"/
+
+meta property="og:title" content="The AI workspace that works for you. | Notion"/
+
+meta property="og:description" content="A tool that connects everyday work into one space. It gives you and your teams AI tools—search, writing, note-taking—inside an all-in-one, flexible workspace."/
+
+meta property="og:image" content="https://www.notion.so/images/meta/default.png"/
+
+meta property="og:locale" content="en_US"/
+
+meta name="mobile-web-app-capable" content="yes"/
+
+meta property="apple-itunes-app" content="app-id=1232780281"/
+
+link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/
+
+link rel="apple-touch-icon" href="/images/logo-ios.png"/
+
+meta name="format-detection" content="telephone=no"/
+
+meta name="msapplication-tap-highlight" content="no"/
+
+meta name="robots" content="noindex"/
+
+link href="/print.e2ba4c31.css" rel="stylesheet" media="print"
+
+style
+body{background:#fff}body.dark{background:#191919}@keyframes startup-shimmer-animation{0%{transform:translateX(-100%) translateZ(0)}100%{transform:translateX(100%) translateZ(0)}}@keyframes startup-shimmer-fade-in{0%{opacity:0}100%{opacity:1}}@keyframes startup-spinner-rotate{0%{transform:rotate(0) translateZ(0)}100%{transform:rotate(360deg) translateZ(0)}}#initial-loading-spinner{position:fixed;height:100vh;width:100vw;z-index:-1;display:none;align-items:center;justify-content:center}#initial-loading-spinner .spinner{position:relative;display:inline-block;height:22px;width:22px;pointer-events:none}#initial-loading-spinner .spinner__circle{position:absolute;top:0;left:0;width:22px;height:22px;border-radius:50%;border:2px solid rgba(84,72,49,.15)}.dark #initial-loading-spinner .spinner__circle{border-color:rgba(255,255,255,.13)}#initial-loading-spinner .spinner__arc{position:absolute;top:0;left:0;width:22px;height:22px;border-radius:50%;border-top:2px solid #494846;border-right:2px solid #494846;border-bottom:2px solid transparent;border-left:2px solid transparent;mask:linear-gradient(90deg,transparent 66.66%,#000 66.66%);animation:startup-spinner-rotate 1.2s linear infinite}.dark #initial-loading-spinner .spinner__arc{border-color:#f0efed}#skeleton{background:#fff;position:fixed;height:100vh;width:100vw;z-index:-1;display:none;overflow:hidden}#initial-loading-spinner.show,#skeleton.show{display:flex}body.dark #skeleton{background:#191919}.notion-front-page #skeleton,.notion-mobile #skeleton{display:none}#skeleton-sidebar{background-color:#f9f8f7;box-shadow:inset calc(var(--direction,1) * -1px) 0 0 0 #eeeeec;display:flex;width:240px;flex-direction:column;padding:12px 14px;overflow:hidden}body.dark #skeleton-sidebar{background-color:#202020;box-shadow:inset calc(var(--direction,1) * -1px) 0 0 0 #2a2a2a}#skeleton.isElectron #skeleton-sidebar{padding-top:46px}#skeleton .row{display:flex;margin-bottom:11px;align-items:center}#skeleton .row.fadein{animation:1s ease-in 0s 1 normal both running startup-shimmer-fade-in}#skeleton .chevron{width:12px;height:12px;display:block;margin-right:4px;fill:rgba(227,226,224,.5)}body.dark #skeleton .chevron{fill:#2f2f2f}.startup-shimmer{background:rgba(227,226,224,.5);overflow:hidden;position:relative}body.dark .startup-shimmer{background:#2f2f2f}.startup-shimmer::before{content:"";position:absolute;height:100%;width:100%;z-index:1;animation:1s linear infinite startup-shimmer-animation;background:linear-gradient(90deg,rgba(0,0,0,0) 0,rgba(0,0,0,.03) 50%,rgba(0,0,0,0) 100%)}body.dark .startup-shimmer::before{background:linear-gradient(90deg,transparent 0,rgba(86,86,86,.1) 50%,transparent 100%)}#skeleton .icon{width:20px;height:20px;border-radius:4px}#skeleton .text{height:10px;border-radius:10px}#skeleton .draggable{-webkit-app-region:drag;position:absolute;top:0;left:0;width:100%;height:36px;display:none}#skeleton.isElectron .draggable{display:block}
+/style
+
+script
+window.__notion_html_async=[];window.DEVICE_READY_P=new Promise(r=
+(o=
+{document.dispatchEvent=function(e){return"deviceready"===e?.type&&r(),o.apply(this,arguments)}})(document.dispatchEvent))
+/script
+
+script src="/_assets/ClientFramework-c41b4714380d38e0.js" async
+
+/script
+
+script src="/_assets/6187-5c30b4d4633a7dce.js" async
+
+/script
+
+script src="/_assets/72012-ed4c53fb4807322d.js" async
+
+/script
+
+script src="/_assets/11000-6f033ad4b6245301.js" async
+
+/script
+
+script src="/_assets/45725-7e81a085b8efa620.js" async
+
+/script
+
+script src="/_assets/68336-2fe5a3ceb4e720d1.js" async
+
+/script
+
+script src="/_assets/26367-e0822fbeb3b4f38c.js" async
+
+/script
+
+script src="/_assets/app-cad49d066cc9d4a2.js" async
+
+/script
+
+link href="/_assets/app-d0c3e9c58d759f14.css" rel="stylesheet"
+
+/head
+
+body class="notion-body"
+
+script type="application/json" id="theme-data"
+{"mode":"system"}
+/script
+
+script
+(()=
+{var e="light",t=localStorage.getItem("theme");if(t)try{(d=JSON.parse(t))&&d.mode&&(e=d.mode)}catch(e){}var a=document.getElementById("theme-data");if(a)try{var d;(d=JSON.parse(a.textContent))&&"
+
+DEFAULT_THEME
+
+"!==d.mode&&(e=d.mode,window.notionTheme=e)}catch(e){}"dark"===e&&document.body.classList.add("dark")})()
+/script
+
+div id="initial-loading-spinner"
+
+span data-testid="loading-spinner" role="progressbar" aria-live="polite" aria-busy="true" class="spinner"
+
+span class="spinner__circle"
+
+/span
+ 
+span class="spinner__arc"
+
+/span
+
+/span
+
+/div
+
+div id="skeleton" role="progressbar" aria-valuetext="Loading..."
+
+div id="skeleton-sidebar"
+
+div class="row" style="margin-bottom:22px"
+
+div class="startup-shimmer icon" style="width:22px;height:22px;padding:1px"
+
+/div
+
+div class="startup-shimmer text" style="width:177px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row" style="margin-bottom:20px"
+
+div class="startup-shimmer text" style="width:78px"
+
+/div
+
+/div
+
+div class="row" style="margin-bottom:20px"
+
+div class="startup-shimmer text" style="width:78px"
+
+/div
+
+/div
+
+div class="row" style="margin-bottom:20px"
+
+div class="startup-shimmer text" style="width:78px"
+
+/div
+
+/div
+
+div class="row" style="margin-bottom:36px"
+
+div class="startup-shimmer text" style="width:135px"
+
+/div
+
+/div
+
+div class="row" style="margin-bottom:14px"
+
+div class="startup-shimmer text" style="width:56px"
+
+/div
+
+/div
+
+div class="row"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:120px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:100px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:140px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:100px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:1s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:100px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:1s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:80px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:1s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:120px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:1s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:80px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:2s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:80px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:2s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:120px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:2s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:80px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:2s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:140px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:3s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:140px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:3s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:140px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:3s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:80px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:3s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:120px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:4s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:100px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:4s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:100px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:4s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:120px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row fadein" style="animation-delay:4s"
+
+div class="startup-shimmer icon"
+
+/div
+
+div class="startup-shimmer text" style="width:120px;margin-left:8px"
+
+/div
+
+/div
+
+/div
+
+div style="flex-grow:1;position:relative"
+
+div class="row" style="position:absolute;top:0;left:0;padding:12px 16px"
+
+div class="startup-shimmer icon" style="width:20px;height:20px"
+
+/div
+
+div class="startup-shimmer text" style="width:78px;margin-left:8px"
+
+/div
+
+/div
+
+div class="row" style="position:absolute;top:0;right:0;padding:12px 16px"
+
+div class="startup-shimmer text" style="width:78px;margin:6px 0"
+
+/div
+
+/div
+
+/div
+
+div class="draggable"
+
+/div
+
+script
+(e=
+{function t(t){var i=e.localStorage&&e.localStorage.getItem(t),d=i&&JSON.parse(i);if(d&&d.value)return d.value}var i=document.getElementById("skeleton"),d=document.getElementById("skeleton-sidebar"),n=document.getElementById("initial-loading-spinner"),o=t("LRU:KeyValueStore2:sidebar"),a=t("LRU:KeyValueStore2:current-user-id"),l="undefined"!=typeof global||e.__isElectron,r=/ReactNative|MobileNative|Android|iPad|iPhone|iPod|Windows Phone/.test(navigator.userAgent);!i||void 0===a||r||l?n&&n.classList.add("show"):(i.classList.add("show"),d&&o&&(!1===o.expanded&&d.remove(),o.width
+0&&(d.style.width=String(o.width)+"px")))})(window)
+/script
+
+/div
+
+style id="scroll-properties"
+
+/style
+
+div id="notion-app"
+
+/div
+
+script
+window.LOCALE_SETUP=void 0,window.LOCALE_SETUP_P=Promise.resolve()
+/script
+
+script
+(()=
+{try{window.addEventListener("error",(function(e){if(e.target&&(e.target instanceof HTMLScriptElement||e.target instanceof HTMLLinkElement&&"stylesheet"===e.target.rel)){var t=e.target instanceof HTMLScriptElement?"script":"stylesheet",r=e.target.src||e.target.href;console.error("Resource Sentinel noted a failed resource load of type",t,r),fetch("https://http-inputs-notion.splunkcloud.com/services/collector/raw",{method:"POST",headers:{"Content-Type":"text/plain; charset=utf-8",Authorization:"Splunk EA76605A-F565-4B17-A496-34435622A1EB"},mode:"cors",keepalive:!0,body:JSON.stringify({environment:"production",level:"error",from:"resourceSentinel",type:"resourceLoadFailure",error:{message:`Failed to load "${t}" resource`,miscDataString:r}}),priority:"low"}).catch(e=
+{console.error("Resource Sentinel failed to send error to Splunk",e)})}}),!0),console.info("Resource Sentinel initialized...")}catch(e){console.error("Resource Sentinel failed to initialize",e)}})()
+/script
+
+script
+__notion_html_async.push("bootData",null)
+/script
+
+script
+__notion_html_async.push("ready",!0)
+/script
+
+script
+__notion_html_async.push("bootReady",true)
+/script
+
+script
+__notion_html_async.push("serverSidePrefetchDataPending",true)
+/script
+
+script
+__notion_html_async.push("serverSidePrefetchData",{"pageId":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","recordMap":{"__version__":3,"block":{"7fa3d54e-7a30-46cc-87bc-787694fdeaf6":{"spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0","value":{"value":{"id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","version":2184,"type":"page","properties":{"title":[["Free Algo Trading Roadmap, Resources & Discord (moondev.com)"]]},"content":["a6e12dc6-2f50-4021-9b7c-6862fe1ccc03","913b878d-2868-4abf-b34e-d69f7cb2b959","e51e9e43-8338-4a0b-84bd-b213b8d3d6fe","84990bb9-368f-4d52-9dff-9b3f322fc0e1","12617b01-8711-800c-9b17-d08e3c7ea001","12617b01-8711-802d-8c28-c409927734de","bae33f63-d72b-4fdb-bc68-92a2a831a2e9","21727c66-5a87-4044-842f-cf3b86e16d34","a2966cd3-7bbb-49f6-8a77-7437ce046a43","ba4e99e5-682e-4b2b-9c6e-0085e56661fe","c37fe80d-30e4-44db-b55f-7ecae5bed97b","21a7cb3e-51b8-46b0-b5ee-c6f8ad7b38a3","b6924b75-ecbf-4ecb-b81c-718f44027cc0","ee7befcc-31a9-4d79-84c4-7c9b74791039","9ccf09cd-bf82-4fb1-af22-d8afd5545963","05d6adef-af1e-40ca-822a-10127140789b","43dd9cc9-8311-484e-8995-94d89d516699","329b7a31-b8d8-4e33-ac0f-725773201b8a","10d17b01-8711-805e-81af-e7dcacd33268","16f798d3-ac6e-473f-8469-4e33a3c60160","11017b01-8711-8032-9228-e7299d4cb907","12217b01-8711-80fe-a872-fd9f60686d7f","12217b01-8711-80dd-90b9-da2615e8a6fb","8b4f28cd-58e0-4c50-b6d6-a45514e20da4","1a117b01-8711-80d4-b577-e75133b52c70","1a117b01-8711-80d1-8314-e1767a60111c","12317b01-8711-80b2-948d-f194eba57caa","12317b01-8711-80e3-a4e7-ed1639d16808","262dfe16-a186-4d59-8c42-abbece6a30eb","f7ae6673-dabd-405c-9a34-282ec1aa7c6f","f0dd0434-33fa-4198-a6b4-d571ba9e35ae","0a23d32a-cef4-4025-8f32-a2b33a6b7d53","c598fa1d-ee20-43b0-a5ee-630b760f6469","5cf8de1a-6896-4252-9582-23ce389b5699","1978a1c4-d8f7-4f9a-8523-b866185e20fc","f63026d3-1625-4605-b7ee-ba9176bf1b75","6abdae47-28fc-420b-89b7-30b32a460107","48c5b5b9-1bfb-4215-8291-1735953aef30","12b17b01-8711-809a-8b66-fefb1b874ff3","12b17b01-8711-80a0-a49f-e90b7446b8f9","12b17b01-8711-80a5-b36d-fa72447137ec","12b17b01-8711-80bc-99fc-ea5774a34b3c","12b17b01-8711-80ee-ab17-e918d6344153","12b17b01-8711-8027-88ab-f99caaadbf23","2c855ea3-5d23-4478-9de5-a5412146dc21","708401dd-c155-4d69-bdda-6532d14f9a9e"],"format":{"site_id":"1b545963-f823-8166-993b-00793a0fd6ec","page_cover":"https://prod-files-secure.s3.us-west-2.amazonaws.com/b2645963-f823-4d28-9c5d-0da3cdbb19d0/48ef601b-5223-419c-b42b-4836ad120c76/banner_(4).png","page_cover_position":0.4784,"social_media_image_preview_url":"attachment:20cd52f3-b4f2-4d35-aa26-d4dace03a570:SocialMediaPreviewImage.png"},"permissions":[{"role":"editor","type":"user_permission","user_id":"41305ede-7393-4d43-bc70-728e98074895"},{"role":"reader","type":"public_permission","is_site":true,"added_timestamp":1717259243736}],"created_time":1717253683983,"last_edited_time":1756476900135,"parent_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0","parent_table":"space","alive":true,"file_ids":["316ca849-1ea0-4f8e-aa81-594337b2299e","4df66352-2eec-4d0a-b12a-849e3d2739bb","c07a37c3-9b19-4005-86d2-41dcc5749718","9a221195-e629-43e2-b9b0-d9a1f8de0292","a4269e05-766f-4c0d-8e18-8ee93882020e","0f3e3eae-4052-42f4-bc3d-323d485fb7aa","cd25b85b-4cb3-4640-92b4-1caa80b47eca","33630ce9-ad09-4736-9e26-a586c8c6c736","3d6483ba-aa3c-4308-a811-f38f50902d21","6e72a6a0-8d6b-46c2-9868-b2e328b3b392","48ef601b-5223-419c-b42b-4836ad120c76","2272fc49-bac2-4441-ae3a-d2dd4ce707af","64ad8543-e60e-447c-9a1e-1719b4d0d8ac","b6f7f2c9-ea27-45d7-9c9a-583fe3a5cee8","88654655-e2f1-45cb-804a-429a01ab3644","26b232cd-df9f-4261-97bc-07b543fd670e","bc7bf921-aaac-4646-80c6-73bc05755b44","895faa70-6206-4926-984d-a0066a342ee7","d75499ae-e54f-4704-97ed-25f29a68fe9e","73ff6e78-6cbe-45dd-9b7c-fcd5261514db","bf8b878f-dfce-441d-a1cf-383dd44b95e4","ce642a41-da25-4e02-8763-c1e2b688953a","1f467f32-fa38-406b-8a86-15eb50b9b04c","a0acf054-7fb6-4f63-99ef-9f3e07d65dac","ae79e32c-34b6-4957-9f99-6a85d25ef8d5","5f81ac47-b8a3-4426-aabf-b56c4a98d916","4f093f47-1044-4477-a651-02d3d6862af1","072adead-7f70-4e45-a740-243f1471f396","46f6a8e8-96dd-4eed-b4d5-d9405bd3abe8","3fffeca1-0618-49cf-9170-b061bc396bac","3bb4e6a9-2c2e-4501-9307-d069fcc1d8bd","5d2190c8-baa7-4f54-a57e-666d0771ed57","15b79741-a3f6-48ef-a169-7731dc3fbe04","d986e804-ba5d-43aa-b627-a00de9a77e14","cf18837c-4c85-4a1a-81de-2382638c8e34","1651f687-a7fd-4ea7-a5fe-9f29193b5661","20cd52f3-b4f2-4d35-aa26-d4dace03a570"],"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0","crdt_format_version":1,"crdt_data":{"title":{"r":"KUAT-xbkJ2_g_wRcfPSnmA,\"start\",\"end\"","n":{"KUAT-xbkJ2_g_wRcfPSnmA,\"start\",\"end\"":{"s":{"x":"KUAT-xbkJ2_g_wRcfPSnmA","i":[{"t":"s"},{"t":"t","i":["KxTZXMNjQdxs",1],"o":"start","l":60,"c":"Free Algo Trading Roadmap, Resources & Discord (moondev.com)"},{"t":"e"}],"l":""},"c":[]}}}}},"role":"reader"}},"a6e12dc6-2f50-4021-9b7c-6862fe1ccc03":{"value":{"value":{"id":"a6e12dc6-2f50-4021-9b7c-6862fe1ccc03","version":5,"type":"text","properties":{"title":[["“a true leader will only bring the troops to battle if he knows they will win.” - Sun Tzu",[["i"]]]]},"created_time":1725815231970,"last_edited_time":1725815232338,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"913b878d-2868-4abf-b34e-d69f7cb2b959":{"value":{"value":{"id":"913b878d-2868-4abf-b34e-d69f7cb2b959","version":310,"type":"sub_header","properties":{"title":[["*get this Free roadmap at website below, just put email in."]]},"format":{"block_color":"yellow_background"},"created_time":1725220029285,"last_edited_time":1751805780850,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"e51e9e43-8338-4a0b-84bd-b213b8d3d6fe":{"value":{"value":{"id":"e51e9e43-8338-4a0b-84bd-b213b8d3d6fe","version":176,"type":"sub_header","properties":{"title":[["🚙 Trade Bot Roadmap (where do i start?)"]]},"content":["7e90c6db-b21d-4eb5-bc3e-5cba85cc44b5","56dbe378-f540-47b8-a5e5-e6ddbf880678","961fbf62-2fee-4e12-ab52-baa279439da0","45aca2df-469c-4368-b2f8-65b0f8a14cb2","9571d17b-8ffa-4248-8046-58d818072cf7","072ccfb6-fb63-4e1e-934e-1325de8381c6","10c17b01-8711-80ab-9f2a-e5a8dec3cbaf","1cd29034-50c0-4344-bc5d-8d6d14c92d59","110781dd-0764-48f3-bc9b-f2b934eb0429","9a301903-6519-49d1-ae5f-1b542f103b0c","699d1ba2-5ded-460b-ae63-4cf8460f75e2","74d09ede-a8ee-441a-85be-e4d714f3c9e7","63a5f1ce-18bd-4408-80ca-ec51d75ad2a7","0c72b027-d089-43c1-81b5-ffcab0567492","a5f1128c-4775-4dc7-848e-75710e3c4a11"],"format":{"toggleable":true,"copied_from_pointer":{"id":"699d1ba2-5ded-460b-ae63-4cf8460f75e2","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725215052317,"last_edited_time":1727629439511,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"699d1ba2-5ded-460b-ae63-4cf8460f75e2","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"84990bb9-368f-4d52-9dff-9b3f322fc0e1":{"value":{"value":{"id":"84990bb9-368f-4d52-9dff-9b3f322fc0e1","version":23,"type":"divider","created_time":1725649704899,"last_edited_time":1729523138889,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12617b01-8711-800c-9b17-d08e3c7ea001":{"value":{"value":{"id":"12617b01-8711-800c-9b17-d08e3c7ea001","version":207,"type":"sub_header","properties":{"title":[["🍻 Discord Community"]]},"content":["12617b01-8711-800d-8019-eba53016e859"],"format":{"toggleable":true,"copied_from_pointer":{"id":"e51e9e43-8338-4a0b-84bd-b213b8d3d6fe","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1729523046258,"last_edited_time":1735752446295,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"e51e9e43-8338-4a0b-84bd-b213b8d3d6fe","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12617b01-8711-802d-8c28-c409927734de":{"value":{"value":{"id":"12617b01-8711-802d-8c28-c409927734de","version":3,"type":"divider","format":{"copied_from_pointer":{"id":"84990bb9-368f-4d52-9dff-9b3f322fc0e1","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1729523136222,"last_edited_time":1729523136225,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"84990bb9-368f-4d52-9dff-9b3f322fc0e1","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"bae33f63-d72b-4fdb-bc68-92a2a831a2e9":{"value":{"value":{"id":"bae33f63-d72b-4fdb-bc68-92a2a831a2e9","version":142,"type":"sub_header","properties":{"title":[["🙋‍♂️ Frequently Asked Questions"]]},"content":["0631bf51-cc9b-43a2-b08c-8da6f47d2e59","fc19052d-0dce-4370-9a16-5ea17365b58c","06ad9f4d-0a49-467f-861b-fa7c75d0a1af","395ce7b2-68d9-4a35-b040-0d26a1133c4e","05a6aac3-8f3a-4367-b9f6-1be51a0db29a","82fff44d-1a2a-4b69-a139-2b6d35f41984","2ad88e0f-e49a-48ba-8b95-064cba5ff2d8","cced31d6-23d2-4847-ac8b-9ac64f888eb6","afaf196b-d0da-4f4b-8b96-d5ea15e16f0d","72c414e4-3ef9-4524-9308-153bb433fc8e","5d9ca1e1-0945-4345-9f58-68a59bed870a","e8598f5c-9e2e-4be9-8201-195161d9c814","0c899b6d-0bed-405d-8d76-3c5c1cd03b04","783e9e38-a00a-450e-bf86-1484210ac9e8","3e4204fe-044e-4fff-9b03-50adab55b498","43f3a466-6206-4ef4-bf4c-eac58a1035b5","05d96aab-6e9c-47b1-b2c6-67d5d4751b8c","f616687d-cd7f-404e-b5aa-0d422d6b6c26","57460708-cc0c-4330-9713-62b5a8756012","a41d7088-8f81-4c3c-8676-f983bb5d2cc1","80484c1b-0bdb-4a5e-9efe-65bd9b6cb04a","eae949e7-0017-4bc2-b6c4-9fb02397e9ff","6fecf73b-d660-4325-a6cf-4e28825a4433","2e8ccff4-4821-464f-815f-8c001d3462fe","7bce376a-1785-4d82-a536-497954a6ea45","14d4394e-94e1-4612-bd28-aac11cbcfca0","6c73709d-775c-444d-8605-ff1e3c29116a","9d6863c4-794f-4f6d-ad1b-31bd18100e2a","6665df44-deae-4a90-af05-15dd2d0facb0","14217b01-8711-803c-b41a-f955e9e5dfbb","11a17b01-8711-8073-b8fc-e33b6c372b5d","2b4f8228-1227-4c98-95c7-f23b04785892","fc526729-f811-4b64-b921-3029d5843fd5","831de3c9-7842-461d-b916-9ee388fb38cd","f4ff6279-a3cd-4912-8163-625fd6ed456c","ba030bad-0d04-4147-ae42-5b166ccfbbf4","eea60e38-0033-49d4-90e0-c3854962df4c","a0c743ff-986e-4f56-beb9-c87e71a6ec52"],"format":{"toggleable":true,"copied_from_pointer":{"id":"e51e9e43-8338-4a0b-84bd-b213b8d3d6fe","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725215074555,"last_edited_time":1731955420130,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"e51e9e43-8338-4a0b-84bd-b213b8d3d6fe","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"21727c66-5a87-4044-842f-cf3b86e16d34":{"value":{"value":{"id":"21727c66-5a87-4044-842f-cf3b86e16d34","version":3,"type":"divider","format":{"copied_from_pointer":{"id":"84990bb9-368f-4d52-9dff-9b3f322fc0e1","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725816885994,"last_edited_time":1725816885998,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"84990bb9-368f-4d52-9dff-9b3f322fc0e1","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"a2966cd3-7bbb-49f6-8a77-7437ce046a43":{"value":{"value":{"id":"a2966cd3-7bbb-49f6-8a77-7437ce046a43","version":157,"type":"sub_header","properties":{"title":[["🧪 My RBI System 4 Algo Trading"]]},"content":["b142e2a0-91a7-4315-a9c0-2baf960c3127","663f5023-1ba1-453b-9ccb-7ca167c8ac43","b04f4663-9d66-4bdd-9de3-509042fa3f2f","92f55951-59b8-48ab-a3e9-e7b119364fd3","4c70ee82-435d-46d4-b461-7aebc458fae4","2b6688e5-29b7-4441-b197-1061fed39e7d"],"format":{"toggleable":true,"copied_from_pointer":{"id":"bae33f63-d72b-4fdb-bc68-92a2a831a2e9","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725302590479,"last_edited_time":1741885382119,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"bae33f63-d72b-4fdb-bc68-92a2a831a2e9","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"ba4e99e5-682e-4b2b-9c6e-0085e56661fe":{"value":{"value":{"id":"ba4e99e5-682e-4b2b-9c6e-0085e56661fe","version":21,"type":"divider","created_time":1725302770283,"last_edited_time":1726092731526,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"c37fe80d-30e4-44db-b55f-7ecae5bed97b":{"value":{"value":{"id":"c37fe80d-30e4-44db-b55f-7ecae5bed97b","version":514,"type":"sub_header","properties":{"title":[["🔥 Alpha Generation & Strategies"]]},"content":["3051def9-9041-452d-a730-f92a2ebf3c9e","1ed17b01-8711-80c9-bba2-f896aa93fbf5","76e57351-da97-461c-90be-2c40378d82e6","11017b01-8711-806e-9552-d7b0d6cf3291","8e225823-0612-4527-963e-57fb4ff66c60","13de75ba-919d-40b9-829a-ef5cdcf60783","92ab6bf2-fa90-4041-a9fd-a98427a8b47c","6844a00e-2748-410d-8055-d04ef752a72d","1907f324-1515-4e1a-9213-8d1e0783ddc7","f02272fb-e867-4c12-938d-eac6b4c70682","3820983b-4165-43ad-a823-321408006e96","d4571c45-c7e9-4d6f-844c-fbf0ff02d43e","41f92f6f-44ee-410a-97e7-9b5681262a4c","d888b508-433c-4455-bcbb-e8f3938dce7d","72c8060b-31a3-4d67-826b-d53a0c2f7f41","a1d619a9-a27a-4342-91fa-492551110f68","8c1c1694-d952-4155-9841-283ea9dea522","86f9015e-7cc3-49a2-b1e0-e148b5b4ef4e","41529239-225e-48b2-b6b3-24ee5eb41dbf","26a58a5c-d28f-4805-a600-15b1f03b4fce","7be98e01-7d7b-450f-aefa-22b1a4f996cd","c166cae5-d8cb-4c19-8c8c-ce83caee4a06","c3537783-099e-48d6-8a00-2472f60b0c82","3d6e6a39-995d-4d54-a389-fdfad530e6b9","31765550-6413-41c2-b601-2ed5825e0957","b51f658d-d299-420e-92dc-05e62c182682","ed9018ec-0416-47b9-9bbb-220d139ae9a1","98c74eaa-ba4b-4202-9157-d16291a94fc8","76c7930e-2183-4998-938f-e13f044cfc0f","1b00934d-dd8c-400f-b646-f4a61e80527f","b646e667-2724-484f-9aac-193957af0195","ac9a831b-a374-4ab6-8620-baf9c91bcd6e","e8f10189-ccc6-48f3-82e6-a90a4c9f2ab4","0bb51c7c-8699-48ae-bdaf-411fed8be502","07015da6-fa90-446e-892d-1c6e034fc6bc","57e4b242-f3b2-4d02-a050-3a63849400ef","ab1f1b72-343b-4522-af39-67d1a9c0fabe","a54c6cba-5e11-4086-99ae-b90d84cee679","dd62ffca-c945-47c9-b53b-3d05d6c6e0df","10b17b01-8711-808a-83dd-dd8a0b62b64b","6c946c53-48fa-4da0-ba7e-724a5a2e8c4e","3e8890ff-3a10-4cc3-9299-27129ac4034d","596a1858-c46c-41b2-a7a1-82fbaae3f9d8","6950139c-b598-42b9-85a8-1dced2f942e1","3387950e-c660-4d7e-802f-d6448e2d7475","4789bcbc-b09d-46e7-853c-05a8f312fa8e","da0e4a43-3935-4386-a2e5-da746d527460","311197ca-cda5-4b3c-a58e-b63eccd6ad51","c296efe9-64fc-4c37-9b42-a419c27560c5","d4cecbe4-5172-4723-bede-724f127b1458","f77aa44a-4327-4f3e-af3d-74f035bdbaf4","4702a042-61c8-48da-bb1d-2de3deff81b1","f4a1bd54-75b7-421f-a985-f4e09b29d910","0dedd644-1e07-4c0a-a6ad-a749e40cb069","0f882ae8-3756-4ca8-a26f-468e2b81b8d3","289f8e09-5009-489e-a8a6-2212bb2ac07f","a95652ae-8fae-4f04-a4ba-a8c6728e24af","a03c060a-35c5-413e-b770-598f8d373c92","a4d2291f-729c-4572-b504-bf0d3f67185e","14317b01-8711-8098-8723-fc358b5ca584","14317b01-8711-8014-9155-e3171694da7f","1ed17b01-8711-8056-b5dd-f6db147683f6","1ed17b01-8711-809c-9560-db340691cb59","1ed17b01-8711-8008-a4e8-fecef1ece614","1ed17b01-8711-8096-90c2-e7360ee120c4","1ed17b01-8711-80d6-9b29-d2f84a5225d8","1ed17b01-8711-80d3-b1a3-d53fe5bdbf8f","1ed17b01-8711-805d-8b7c-dc22c1885383","1ed17b01-8711-805a-9946-f26a3ec25ffd","1ed17b01-8711-8089-bb11-fd16453d1c0a","1ed17b01-8711-80f7-a123-ebcfe29165cb","1ed17b01-8711-80df-869e-ef1e0707f313","1ed17b01-8711-809e-b239-ccb207bce8b8","1ed17b01-8711-80fb-96c4-e38111a170e8","20817b01-8711-80e3-9e9b-e0b32ff47a79","20b17b01-8711-8009-a14c-d06e48fbd420","1ed17b01-8711-8068-ad99-e616f68cd1c2","46fa80dc-b56b-4145-bbc4-59cfc4a8b847","1ed17b01-8711-80d9-bc3a-d17d5520a77f","b491f1d7-bc7a-40f0-bb45-7a0755ad3229","02c886e9-1169-462f-aa1b-131055eced2e","e32ee33a-c637-4d25-934a-e044ef3fd38e","d61e5315-f114-40ba-b4b1-57014ec77dbe","167dd609-9547-4442-83f0-b0962610af27","19c11aa7-989a-43a2-a961-c257040f5d61","145c11d9-9f15-43f2-9a9d-af2101cf35a2","0b171137-2585-490c-abbd-4e22cca8b93a","b5e37baa-84c1-4d5d-bbff-bfc0dc8d9a5b","a5f8af6c-1ac8-4647-833c-88ec41772726","510b09f0-5152-473b-98f3-067374db35c9","fff2d0cb-8798-44f2-8dde-b4914c36a2e3","d2687a11-b280-4921-b116-620c6c9e688b","92ad7e25-aa2d-4700-a245-6f096d78d141","b94f23d0-d4f4-4bf6-bf9f-f0503f882e4b","d5c2948c-2240-4644-8c91-989baf2bc64f","4e44e0a5-fbea-4f99-be19-b9fb58fcc28a","6ee7dab3-0aab-4df2-bba6-e14f7dff3a3c","9913ab66-eee4-4ec3-839f-363a0ae4a4f0","09a4896a-3543-421b-b4de-1ecfa0a88eea","5bf3f6d1-5cbd-4451-b926-d5da693bc97d","87559c47-32d9-4247-ba24-e84c31cfe3af","b190032e-654c-4306-9f88-ca91f3a29f8e","dc466421-ac4a-4c39-aa9e-49ee344fc3c1","3421cafa-a65a-4a49-8df5-4444adcc3131","69e2f817-17d1-4ab8-b928-2e03631b7873","2fa26f00-06a6-4257-92e9-a460ca356c87","bef27a7a-595b-428a-b8d6-589af9eb4e2f","20934ba7-3ceb-4ea9-8c38-5b8173f86574","a7cad32b-23c8-426c-aabf-aed496db7834","20b17b01-8711-8027-9b5b-cf31d2aea72c","1ed17b01-8711-8071-9077-ce9cced214bc","1ed17b01-8711-80c1-be3e-d29f62bbad34","1ed17b01-8711-8076-ba80-c92fe935a981","1ed17b01-8711-8087-8a88-fd7881d609ad","1ed17b01-8711-808a-a8f5-c424f1e022dd","1ed17b01-8711-80bd-be8f-d9d9ef18ca22","1ed17b01-8711-8093-b3ef-f568bd235300","1ed17b01-8711-80c5-a010-f5e60d5386cd","1ed17b01-8711-80f3-a3e4-e61ac7dfa7fe","1ed17b01-8711-8009-a89a-efe5af153a05","1ef17b01-8711-8046-8cfe-d374cade72c9","1ef17b01-8711-80b2-b1b4-fa51ad01ab57"],"format":{"toggleable":true},"created_time":1725305020950,"last_edited_time":1756471617454,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0","crdt_format_version":1,"crdt_data":{"title":{"r":"5_1VQyZF6xag3krmKbFj-Q,\"start\",\"end\"","n":{"5_1VQyZF6xag3krmKbFj-Q,\"start\",\"end\"":{"s":{"x":"5_1VQyZF6xag3krmKbFj-Q","i":[{"t":"s"},{"t":"t","i":["29fqJnh5o4wc",1],"o":"start","l":32,"c":"🔥 Alpha Generation & Strategies"},{"t":"e"}],"l":""},"c":[]}}}}},"role":"reader"}},"21a7cb3e-51b8-46b0-b5ee-c6f8ad7b38a3":{"value":{"value":{"id":"21a7cb3e-51b8-46b0-b5ee-c6f8ad7b38a3","version":6,"type":"divider","format":{"copied_from_pointer":{"id":"ba4e99e5-682e-4b2b-9c6e-0085e56661fe","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725815574518,"last_edited_time":1725815576618,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"ba4e99e5-682e-4b2b-9c6e-0085e56661fe","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"b6924b75-ecbf-4ecb-b81c-718f44027cc0":{"value":{"value":{"id":"b6924b75-ecbf-4ecb-b81c-718f44027cc0","version":230,"type":"sub_header","properties":{"title":[["📘 Book List"]]},"content":["d86a74f6-e0c1-438a-935f-d05a9360f101","b89c86bf-62dd-4557-8fc7-663cae825c05","d19598c7-56a7-443b-a38b-14a662685baa","b901f04e-73fb-49c5-9c3c-e8afe664df72","ea8e99bc-36de-47db-b22b-85c0c79cc8fa","f8debbfd-96e0-4a5e-b3e3-e4774a80e56c","e940fd69-f64b-4f94-bf60-c74aa486d894","31bab158-d79a-43a1-bbab-f31e156f2170","1584ef69-d3ba-464e-b08c-b643a81d458b","8dc81599-d2df-4264-ab53-eb7a725bd2ae","a537dfee-d259-4f8b-823c-6b4688d8e114","c7e6fec5-4045-45a5-b8b4-a3b39486e5c6","14217b01-8711-80f2-8406-c0a987d98b05","63ed3809-5be8-4260-a0f3-547c9c79d245","0be423f9-9d28-4859-9902-2a84f886bf0e","dac40de7-da0d-47a5-893e-4a82defb917a","1538aa44-3658-4cd5-845b-de6c4b26f024","2a8f037f-f20e-41db-8718-cbd81309f724","5921a7c0-55be-4495-9ba1-0352eeedb13f","dc1eb1a9-fca0-4c8d-9f89-594ea4e51030","d3a89106-9e12-40d3-8b78-8cc8e1804709","754658ea-2dfd-428c-b0c6-45fd317c1743","ee91cf61-11d1-425b-9cf4-b6df914794d2","4cd76c97-0d0a-4ff6-8b78-e6543f9bc83d","65d32d53-a887-475a-9514-c0c965c27663","ddf626cd-58fb-4cc1-85a1-77d7f294a6ae","9ad7466d-f09f-4804-8720-d95719a463c4","64bb7d65-a72e-4296-a5cc-4b8e50291382","b4aafd15-f52c-46b3-9eda-1a980e422850","5c4af896-ba89-4e4f-bff9-df0f7f1e7807","00b640d0-2550-4f48-ae95-69d3d07dafdf","364ec0f2-2ce9-4a46-a630-044334767147","c546764b-a8e6-483c-b377-9be4c2ce8752","ebba6b1a-130b-44aa-ac85-90520f2a60d8","4fc6272d-7d06-49b9-8699-f4298065f302","d33c9b38-0c7d-4829-a5f4-aee6d0d7d744","73d54019-be9d-4ff9-a6b2-093fabcc127f","58e95f89-0280-4c51-aace-6c8dbbc17e6c","40ae5140-46bd-40b2-bb75-1e4f9d0444b8","a40dda02-b67d-4e49-97dc-fc387c223956","24017b01-8711-8092-84d5-c208704f66f5"],"format":{"toggleable":true},"created_time":1725816617030,"last_edited_time":1753886541604,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0","crdt_format_version":1,"crdt_data":{"title":{"r":"-HA3Eh4aTTG0eoXeDGJ4tg,\"start\",\"end\"","n":{"-HA3Eh4aTTG0eoXeDGJ4tg,\"start\",\"end\"":{"s":{"x":"-HA3Eh4aTTG0eoXeDGJ4tg","i":[{"t":"s"},{"t":"t","i":["q8qeUrN1d9Ax",1],"o":"start","l":12,"c":"📘 Book List"},{"t":"e"}],"l":""},"c":[]}}}}},"role":"reader"}},"ee7befcc-31a9-4d79-84c4-7c9b74791039":{"value":{"value":{"id":"ee7befcc-31a9-4d79-84c4-7c9b74791039","version":3,"type":"divider","format":{"copied_from_pointer":{"id":"21a7cb3e-51b8-46b0-b5ee-c6f8ad7b38a3","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725816160759,"last_edited_time":1725816160760,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"21a7cb3e-51b8-46b0-b5ee-c6f8ad7b38a3","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"9ccf09cd-bf82-4fb1-af22-d8afd5545963":{"value":{"value":{"id":"9ccf09cd-bf82-4fb1-af22-d8afd5545963","version":165,"type":"sub_header","properties":{"title":[["🤖 Moon Dev AI Agents"]]},"content":["16f17b01-8711-80f0-a2e0-e3ebf5410da0","f771c31c-9bfe-4fa7-bb59-a40acab37832","16e17b01-8711-802d-b00a-e62f75ed146f","16e17b01-8711-806a-ad18-ca01e7be4951","16e17b01-8711-80ae-9d3a-cb1fdb03b0bf","16e17b01-8711-809a-997c-e04155fe4c6f","16e17b01-8711-8048-855f-de6478bbfdf8","16e17b01-8711-8032-b273-c8f6bd8e8348","16e17b01-8711-80a1-9c8d-dde078197a44","16e17b01-8711-80e9-a870-f9492f0eb190","16e17b01-8711-8012-b04c-cb42d000c76a","16e17b01-8711-80a1-b7ea-c59d1a15e930","16e17b01-8711-8017-9e75-f40dd0af384b","16e17b01-8711-8041-9da2-f78de38b2ae7","16e17b01-8711-80a9-a33f-c9368c03ac4b","16e17b01-8711-80f2-9100-f71ddeb731b9"],"format":{"toggleable":true,"copied_from_pointer":{"id":"c37fe80d-30e4-44db-b55f-7ecae5bed97b","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725815281367,"last_edited_time":1738668495470,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"c37fe80d-30e4-44db-b55f-7ecae5bed97b","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"05d6adef-af1e-40ca-822a-10127140789b":{"value":{"value":{"id":"05d6adef-af1e-40ca-822a-10127140789b","version":6,"type":"divider","format":{"copied_from_pointer":{"id":"ee7befcc-31a9-4d79-84c4-7c9b74791039","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725825166805,"last_edited_time":1725825170082,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"ee7befcc-31a9-4d79-84c4-7c9b74791039","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"43dd9cc9-8311-484e-8995-94d89d516699":{"value":{"value":{"id":"43dd9cc9-8311-484e-8995-94d89d516699","version":107,"type":"sub_header","properties":{"title":[["📈 Crypto Data"]]},"content":["0baa3993-550f-448e-9333-284308aa5606","4d522dc9-d15d-4ce5-8a67-02bfaad30cb6","1b0e7d61-3d50-4d0a-a4bb-7afc87259dee","80c1e12b-36fb-45b6-8d67-f0c955739b57","5b43a6a5-253d-48e0-9dfc-aec3f66c4852","20912f9b-5466-423b-af42-96437b2223d5","60c66b62-84d3-4c86-849e-3bd9c1cf3143"],"format":{"toggleable":true},"created_time":1725825059563,"last_edited_time":1726157169359,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"329b7a31-b8d8-4e33-ac0f-725773201b8a":{"value":{"value":{"id":"329b7a31-b8d8-4e33-ac0f-725773201b8a","version":34,"type":"divider","created_time":1725225188017,"last_edited_time":1727366540924,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"10d17b01-8711-805e-81af-e7dcacd33268":{"value":{"value":{"id":"10d17b01-8711-805e-81af-e7dcacd33268","version":109,"type":"sub_header","properties":{"title":[["⚙️ Machine Learning & AI"]]},"content":["d8b89ceb-95d4-47b4-8fc5-b5914f7a18f6","10d17b01-8711-8059-a053-cc07b28ec0bc","22e17b01-8711-80a8-b273-c696585f1a4f","12c17b01-8711-803d-bd8b-fe4f912655c8","12f17b01-8711-800c-8047-c4c3b64f27d6","13617b01-8711-8024-918c-f1e6ebfe92ff","13617b01-8711-80ae-ac55-ed92a027d7bd"],"format":{"toggleable":true,"copied_from_pointer":{"id":"43dd9cc9-8311-484e-8995-94d89d516699","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1727366529561,"last_edited_time":1753711614689,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"43dd9cc9-8311-484e-8995-94d89d516699","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0","crdt_format_version":1,"crdt_data":{"title":{"r":"lkYHcaWr5Jy5qm1Jzioz4g,\"start\",\"end\"","n":{"lkYHcaWr5Jy5qm1Jzioz4g,\"start\",\"end\"":{"s":{"x":"lkYHcaWr5Jy5qm1Jzioz4g","i":[{"t":"s"},{"t":"t","i":["mFRmTCz5NiYl",1],"o":"start","l":24,"c":"⚙️ Machine Learning & AI"},{"t":"e"}],"l":""},"c":[]}}}}},"role":"reader"}},"16f798d3-ac6e-473f-8469-4e33a3c60160":{"value":{"value":{"id":"16f798d3-ac6e-473f-8469-4e33a3c60160","version":3,"type":"divider","format":{"copied_from_pointer":{"id":"329b7a31-b8d8-4e33-ac0f-725773201b8a","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725825831230,"last_edited_time":1725825831231,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"329b7a31-b8d8-4e33-ac0f-725773201b8a","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"11017b01-8711-8032-9228-e7299d4cb907":{"value":{"value":{"id":"11017b01-8711-8032-9228-e7299d4cb907","version":35,"type":"sub_header","properties":{"title":[["🎁 Free PDFs"]]},"content":["abb90aba-23db-464a-b4bb-fe762e7d07ee"],"format":{"toggleable":true,"copied_from_pointer":{"id":"10d17b01-8711-805e-81af-e7dcacd33268","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1727629571446,"last_edited_time":1735729894386,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"10d17b01-8711-805e-81af-e7dcacd33268","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12217b01-8711-80fe-a872-fd9f60686d7f":{"value":{"value":{"id":"12217b01-8711-80fe-a872-fd9f60686d7f","version":6,"type":"divider","format":{"copied_from_pointer":{"id":"16f798d3-ac6e-473f-8469-4e33a3c60160","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1729169530037,"last_edited_time":1729169532934,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"16f798d3-ac6e-473f-8469-4e33a3c60160","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12217b01-8711-80dd-90b9-da2615e8a6fb":{"value":{"value":{"id":"12217b01-8711-80dd-90b9-da2615e8a6fb","version":221,"type":"sub_header","properties":{"title":[["👨‍💻 Code from YouTube"]]},"content":["19a6e10b-0c90-4f60-a9ff-0690a2592428","12317b01-8711-8051-aaea-f2312b52b152","12d17b01-8711-80cc-ac0d-c79f3e9f85ae","14317b01-8711-8083-afe0-f5f525cc2074","15417b01-8711-80ae-926e-d91c3d2bc2c1"],"format":{"toggleable":true,"copied_from_pointer":{"id":"11017b01-8711-8032-9228-e7299d4cb907","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1729167362638,"last_edited_time":1733493696100,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"11017b01-8711-8032-9228-e7299d4cb907","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"8b4f28cd-58e0-4c50-b6d6-a45514e20da4":{"value":{"value":{"id":"8b4f28cd-58e0-4c50-b6d6-a45514e20da4","version":21,"type":"divider","created_time":1725299697762,"last_edited_time":1729253172520,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"1a117b01-8711-80d4-b577-e75133b52c70":{"value":{"value":{"id":"1a117b01-8711-80d4-b577-e75133b52c70","version":121,"type":"sub_header","properties":{"title":[["🪙 How To Automate Your Trading (RBI)"]]},"content":["1a117b01-8711-8079-accb-cc4d646b4c74","1a117b01-8711-809d-a80d-c481501002e8","1a117b01-8711-805c-8de5-da0a12e58007","1a117b01-8711-8170-b755-fa3377fb4510","1a117b01-8711-80aa-8393-fbf1d92bd1ae","1a117b01-8711-8051-bd07-e7070197d850","1a117b01-8711-806b-a1c2-ce3f58fcbc6f"],"format":{"toggleable":true,"copied_from_pointer":{"id":"12217b01-8711-80dd-90b9-da2615e8a6fb","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1740141970123,"last_edited_time":1740147189744,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"12217b01-8711-80dd-90b9-da2615e8a6fb","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"1a117b01-8711-80d1-8314-e1767a60111c":{"value":{"value":{"id":"1a117b01-8711-80d1-8314-e1767a60111c","version":3,"type":"divider","format":{"copied_from_pointer":{"id":"8b4f28cd-58e0-4c50-b6d6-a45514e20da4","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1740141936731,"last_edited_time":1740141936738,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"8b4f28cd-58e0-4c50-b6d6-a45514e20da4","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12317b01-8711-80b2-948d-f194eba57caa":{"value":{"value":{"id":"12317b01-8711-80b2-948d-f194eba57caa","version":10,"type":"sub_header","properties":{"title":[["*get this roadmap at "],["moondev.com",[["a","http://moondev.com"],["h","teal"]]],[" ",[["h","teal"]]]]},"format":{"block_color":"yellow_background","copied_from_pointer":{"id":"913b878d-2868-4abf-b34e-d69f7cb2b959","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1729253150423,"last_edited_time":1740143479608,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"913b878d-2868-4abf-b34e-d69f7cb2b959","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12317b01-8711-80e3-a4e7-ed1639d16808":{"value":{"value":{"id":"12317b01-8711-80e3-a4e7-ed1639d16808","version":3,"type":"divider","format":{"copied_from_pointer":{"id":"8b4f28cd-58e0-4c50-b6d6-a45514e20da4","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1729253169486,"last_edited_time":1729253169488,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"8b4f28cd-58e0-4c50-b6d6-a45514e20da4","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"262dfe16-a186-4d59-8c42-abbece6a30eb":{"value":{"value":{"id":"262dfe16-a186-4d59-8c42-abbece6a30eb","version":320,"type":"sub_sub_header","properties":{"title":[["Ready to take it to the next level? "],["Join the bootcamp where i show you step by step how to automate your trading. ",[["a","https://algotradecamp.com"]]]]},"format":{"toggleable":false},"created_time":1717260393915,"last_edited_time":1730645538708,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"f7ae6673-dabd-405c-9a34-282ec1aa7c6f":{"value":{"value":{"id":"f7ae6673-dabd-405c-9a34-282ec1aa7c6f","version":3,"type":"divider","format":{"copied_from_pointer":{"id":"16f798d3-ac6e-473f-8469-4e33a3c60160","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1725825833606,"last_edited_time":1725825833607,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"16f798d3-ac6e-473f-8469-4e33a3c60160","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"f0dd0434-33fa-4198-a6b4-d571ba9e35ae":{"value":{"value":{"id":"f0dd0434-33fa-4198-a6b4-d571ba9e35ae","version":219,"type":"text","properties":{"title":[["Contact Info & Official links",[["b"]]],[": "]]},"created_time":1717256584038,"last_edited_time":1725825869353,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"0a23d32a-cef4-4025-8f32-a2b33a6b7d53":{"value":{"value":{"id":"0a23d32a-cef4-4025-8f32-a2b33a6b7d53","version":139,"type":"text","properties":{"title":[["beware: i will never dm you asking for money or selling anything. "]]},"created_time":1725825922172,"last_edited_time":1725825938556,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"c598fa1d-ee20-43b0-a5ee-630b760f6469":{"value":{"value":{"id":"c598fa1d-ee20-43b0-a5ee-630b760f6469","version":14,"type":"text","properties":{"title":[["moon@algotradecamp.com"]]},"created_time":1717261079441,"last_edited_time":1717288834964,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"5cf8de1a-6896-4252-9582-23ce389b5699":{"value":{"value":{"id":"5cf8de1a-6896-4252-9582-23ce389b5699","version":11,"type":"text","properties":{"title":[["https://algotradecamp.com",[["a","https://algotradecamp.com"]]],[" "]]},"created_time":1717261023344,"last_edited_time":1717288834964,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"1978a1c4-d8f7-4f9a-8523-b866185e20fc":{"value":{"value":{"id":"1978a1c4-d8f7-4f9a-8523-b866185e20fc","version":9,"type":"text","properties":{"title":[["https://twitter.com/MoonDevOnYT",[["a","https://twitter.com/MoonDevOnYT"]]]]},"format":{"copied_from_pointer":{"id":"7956b1f3-2ec3-42ab-a0fc-a5fc38b5f78f","table":"block","spaceId":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"}},"created_time":1717261023871,"last_edited_time":1717288834964,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"copied_from":"7956b1f3-2ec3-42ab-a0fc-a5fc38b5f78f","space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"f63026d3-1625-4605-b7ee-ba9176bf1b75":{"value":{"value":{"id":"f63026d3-1625-4605-b7ee-ba9176bf1b75","version":110,"type":"text","properties":{"title":[["https://youtube.com/moondevonyt",[["a","https://youtube.com/moondevonyt"]]],[" "]]},"created_time":1717261067965,"last_edited_time":1725825910227,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"6abdae47-28fc-420b-89b7-30b32a460107":{"value":{"value":{"id":"6abdae47-28fc-420b-89b7-30b32a460107","version":19,"type":"text","properties":{"title":[["discord community",[["a","https://discord.gg/gQv5sqZkkn"]]]]},"created_time":1725224491190,"last_edited_time":1725224499383,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"48c5b5b9-1bfb-4215-8291-1735953aef30":{"value":{"value":{"id":"48c5b5b9-1bfb-4215-8291-1735953aef30","version":15,"type":"divider","created_time":1725222639715,"last_edited_time":1725225960157,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12b17b01-8711-809a-8b66-fefb1b874ff3":{"value":{"value":{"id":"12b17b01-8711-809a-8b66-fefb1b874ff3","version":2,"type":"sub_sub_header","properties":{"title":[["Disclaimer:",[["b"]]]]},"created_time":1729943282280,"last_edited_time":1729943282286,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12b17b01-8711-80a0-a49f-e90b7446b8f9":{"value":{"value":{"id":"12b17b01-8711-80a0-a49f-e90b7446b8f9","version":6,"type":"text","properties":{"title":[["The content presented on this channel is for educational and informational purposes only and does not constitute financial advice. All trading involves risk and may not be suitable for all investors. You should carefully evaluate your investment objectives, your level of experience, and your risk tolerance before making any investment decisions."]]},"created_time":1729943282281,"last_edited_time":1729943304542,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12b17b01-8711-80a5-b36d-fa72447137ec":{"value":{"value":{"id":"12b17b01-8711-80a5-b36d-fa72447137ec","version":6,"type":"text","properties":{"title":[["Past performance is not indicative of future results. There is no guarantee that any trading strategy or algorithm discussed on this channel will result in profits or that you will not incur losses. I make no guarantees of success; trading and investing carry substantial risk, and only you are responsible for your trading decisions."]]},"created_time":1729943282281,"last_edited_time":1729943304542,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12b17b01-8711-80bc-99fc-ea5774a34b3c":{"value":{"value":{"id":"12b17b01-8711-80bc-99fc-ea5774a34b3c","version":6,"type":"text","properties":{"title":[["CFTC Disclaimer: Commodity Futures Trading Commission (CFTC) regulations require that I inform you of the risks associated with trading commodities and derivatives. There’s a substantial risk of loss involved in trading and investing."]]},"created_time":1729943282281,"last_edited_time":1729943304542,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12b17b01-8711-80ee-ab17-e918d6344153":{"value":{"value":{"id":"12b17b01-8711-80ee-ab17-e918d6344153","version":6,"type":"text","properties":{"title":[["I am not a licensed financial advisor or a registered broker-dealer. The content shared here reflects my personal experiences and insights in coding trading algorithms, and should not be relied upon as a guarantee of financial success. By accessing and using this channel, you agree that I will not be liable for any losses or damages arising from any decisions you make based on my content."]]},"created_time":1729943282282,"last_edited_time":1729943304542,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"12b17b01-8711-8027-88ab-f99caaadbf23":{"value":{"value":{"id":"12b17b01-8711-8027-88ab-f99caaadbf23","version":6,"type":"text","properties":{"title":[["Always do your own research, and consult with a professional financial advisor before making any investment decisions. For further questions or inquiries, you can reach me at "],["moon@algotradecamp.com",[["a","mailto:moon@algotradecamp.com"]]],[" or visit my website at "],["moondev.com",[["a","https://moondev.com/"]]],["."]]},"created_time":1729943282282,"last_edited_time":1729943304542,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"2c855ea3-5d23-4478-9de5-a5412146dc21":{"value":{"value":{"id":"2c855ea3-5d23-4478-9de5-a5412146dc21","version":6,"type":"text","created_time":1725299697817,"last_edited_time":1725299714224,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}},"708401dd-c155-4d69-bdda-6532d14f9a9e":{"value":{"value":{"id":"708401dd-c155-4d69-bdda-6532d14f9a9e","version":8,"type":"text","created_time":1725299698232,"last_edited_time":1725299724326,"parent_id":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","parent_table":"block","alive":true,"space_id":"b2645963-f823-4d28-9c5d-0da3cdbb19d0"},"role":"reader"}}}},"cursors":[]})
+/script
+
+script
+__notion_html_async.push("statsigResults",null)
+/script
+
+script
+__notion_html_async.push("requiredRedirectMetadata",{"pageId":"7fa3d54e-7a30-46cc-87bc-787694fdeaf6","requiresRedirect":false})
+/script
+
+script
+__notion_html_async.push(null,null)
+/script
+
+/body
+
+/html
